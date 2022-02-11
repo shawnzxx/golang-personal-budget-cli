@@ -41,11 +41,11 @@ func (b Budget) CurrentCost() float32 {
 	return sum
 }
 
-var errDoesNotFitBudget = errors.New("Item does not fit the budget")
+var errDoesNotFitBudget = errors.New("item does not fit the budget")
 
-var errReportIsFull = errors.New("Report is full")
+var errReportIsFull = errors.New("report is full")
 
-var errDuplicateEntry = errors.New("Cannot add duplicate entry")
+var errDuplicateEntry = errors.New("cannot add duplicate entry")
 
 // END Initial code
 
